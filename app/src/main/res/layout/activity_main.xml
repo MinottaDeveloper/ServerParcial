@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+   android:orientation="vertical"
+       xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:textSize="10pt"
+            android:text="Ingrese los datos para crear objetos"
+           android:textStyle="bold"
+            />
+
+        <EditText
+            android:inputType="number"
+            android:id="@+id/et_coorX"
+            android:layout_marginTop="50dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese la coordenada en X"/>
+
+        <EditText
+            android:inputType="number"
+            android:id="@+id/et_coorY"
+            android:layout_marginTop="50dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese la coordenada en Y"/>
+
+        <EditText
+            android:inputType="number"
+            android:id="@+id/et_radio"
+            android:layout_marginTop="50dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese el radio"/>
+
+        <Button
+            android:id="@+id/btn_enviar"
+            android:layout_marginTop="50dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Enviar"
+            android:background="#139D57"
+            />
+
+        <TextView
+            android:id="@+id/tv_advertencia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:text=""
+            />
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
